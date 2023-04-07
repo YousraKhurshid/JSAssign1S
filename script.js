@@ -28,41 +28,30 @@ else
        alert("The sign is -");
 }      
 //ques3
-// var num1, num2;
-// num11 = window.prompt("Input the First integer", "0");
-// num22 = window.prompt("Input the second integer", "0");
-// num33 = window.prompt("Input the third integer", "0");
-// num44 = window.prompt("Input the forth integer", "0");
-// num55 = window.prompt("Input the fifth integer", "0");
-                                                 
-// if(Number(num11 > num22 parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
-//   { 
-//   console.log("The larger of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num11+ ".");
-//   }   
-// else
-//   if(parseInt(num22, 10) > parseInt(num11, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
-//   {
-//   console.log("The larger of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num22+ ".");
-//   }   
-// else
-//   if(parseInt(num33, 10) > parseInt(num22, 10) parseInt(num11, 10) parseInt(num44, 10) parseInt(num55, 10)) 
-//   {
-//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num33+ ".");
-//   }    
-// else
-//   if(parseInt(num44, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num11, 10) parseInt(num55, 10)) 
-//   {
-//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num44+ ".");
-//   }    
-// else
-//   if(parseInt(num55, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num11, 10)) 
-//   {
-//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num55+ ".");
-//   }    
-// else
-//   {
-//    console.log("The values "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " are equal.");
-//   }
+var = numb1, numb2, numb3, numb4, numb5 
+numb1 = + prompt ("Enter First Number");
+numb2 = + prompt ("Enter Second Number");
+numb3 = + prompt ("Enter Third Number");
+numb4 = + prompt ("Enter Forth Number");
+numb5 = + prompt ("Enter Fifth Number");
+let = Largest;
+if(numb1 > numb2 && numb1 > numb3 && numb1 > numb4 && numb1 > numb5){
+ Largest = numb1;
+}
+else 
+if(numb2 > numb1 && numb2 > numb3 && numb2 > numb4 && numb2 > numb5){
+ Largest = numb2;
+}
+else (numb3 > numb1 && numb3 > numb2 && numb3 > numb4 && numb3 > numb5){
+ Largest = numb3;
+}
+else (numb4 > numb1 && numb4 > numb3 && numb4 > numb2 && numb4 > numb5){
+ Largest = numb4;
+}
+else (numb5 > numb1 && numb5 > numb3 && numb5 > numb4 && numb5 > numb2){
+ Largest = numb5;
+}
+console.log("The Largest number is " + Largest)
 //question4
 for (var x=0; x<=15; x++) {
         if (x === 0) {
