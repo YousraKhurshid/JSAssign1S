@@ -17,50 +17,52 @@ else
    console.log("The values "+ num1+ " and "+num2+ " are equal.");
   }
 //ques2
-var x=3;
-var y=-7;
-var z=2;
-if (x>0 && y>0 && z>0)
+num = window.prompt("Input the number", "0");
+if (num>0)
 {
        alert("The sign is +");
 }
-else if (x<0 && y<0 && z<0)
-        {
-          console.log("The sign is -");
-        }
-        else if (x>0 && y<0 && z<0)
-        {
-          console.log("The sign is +");
-        }
-        else if (x<0 && y>0 && z<0)
-        {
-          console.log("The sign is +");
-        }
-        else
-        {
-          console.log("The sign is -");
-        }
+else
+  if (num<0)
+{
+       alert("The sign is -");
+}      
 //ques3
-var num1, num2;
-num1 = window.prompt("Input the First integer", "0");
-num2 = window.prompt("Input the second integer", "0");
-num3 = window.prompt("Input the third integer", "0");
-num4 = window.prompt("Input the forth integer", "0");
-num5 = window.prompt("Input the fifth integer", "0");
+// var num1, num2;
+// num11 = window.prompt("Input the First integer", "0");
+// num22 = window.prompt("Input the second integer", "0");
+// num33 = window.prompt("Input the third integer", "0");
+// num44 = window.prompt("Input the forth integer", "0");
+// num55 = window.prompt("Input the fifth integer", "0");
                                                  
-if(parseInt(num1, 10) > parseInt(num2, 10)) 
-  { 
-  console.log("The largest of "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " is "+ num1+ ".");
-  }   
-else
-  if(parseInt(num2, 10) > parseInt(num1, 10)) 
-  {
-  console.log("The largest of "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " is "+ num2+ ".");
-  }                  
-else
-  {
-   console.log("The values "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " are equal.");
-  }
+// if(parseInt(num11, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
+//   { 
+//   console.log("The larger of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num11+ ".");
+//   }   
+// else
+//   if(parseInt(num22, 10) > parseInt(num11, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
+//   {
+//   console.log("The larger of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num22+ ".");
+//   }   
+// else
+//   if(parseInt(num33, 10) > parseInt(num22, 10) parseInt(num11, 10) parseInt(num44, 10) parseInt(num55, 10)) 
+//   {
+//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num33+ ".");
+//   }    
+// else
+//   if(parseInt(num44, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num11, 10) parseInt(num55, 10)) 
+//   {
+//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num44+ ".");
+//   }    
+// else
+//   if(parseInt(num55, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num11, 10)) 
+//   {
+//   console.log("The largest of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num55+ ".");
+//   }    
+// else
+//   {
+//    console.log("The values "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " are equal.");
+//   }
 //question4
 for (var x=0; x<=15; x++) {
         if (x === 0) {
