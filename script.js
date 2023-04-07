@@ -35,7 +35,7 @@ else
 // num44 = window.prompt("Input the forth integer", "0");
 // num55 = window.prompt("Input the fifth integer", "0");
                                                  
-// if(parseInt(num11, 10) > parseInt(num22, 10) parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
+// if(Number(num11 > num22 parseInt(num33, 10) parseInt(num44, 10) parseInt(num55, 10)) 
 //   { 
 //   console.log("The larger of "+ num11+ " "+ num22+ " "+ num33+ " "+ num44+ " "+ num55+ " is "+ num11+ ".");
 //   }   
