@@ -1,7 +1,7 @@
 //Ques1
 var num1, num2;
-//num1 = window.prompt("Input the First integer", "0");
-//num2 = window.prompt("Input the second integer", "0");
+num1 = window.prompt("Input the First integer", "0");
+num2 = window.prompt("Input the second integer", "0");
                                                  
 if(parseInt(num1, 10) > parseInt(num2, 10)) 
   { 
@@ -42,24 +42,27 @@ else if (x<0 && y<0 && z<0)
         }
 //ques3
 var num1, num2;
-//num1 = window.prompt("Input the First integer", "0");
-//num2 = window.prompt("Input the second integer", "0");
+num1 = window.prompt("Input the First integer", "0");
+num2 = window.prompt("Input the second integer", "0");
+num3 = window.prompt("Input the third integer", "0");
+num4 = window.prompt("Input the forth integer", "0");
+num5 = window.prompt("Input the fifth integer", "0");
                                                  
 if(parseInt(num1, 10) > parseInt(num2, 10)) 
   { 
-  console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+  console.log("The largest of "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " is "+ num1+ ".");
   }   
 else
   if(parseInt(num2, 10) > parseInt(num1, 10)) 
   {
-  console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+  console.log("The largest of "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " is "+ num2+ ".");
   }                  
 else
   {
-   console.log("The values "+ num1+ " and "+num2+ " are equal.");
+   console.log("The values "+ num1+ " "+ num2+ " "+ num3+ " "+ num4+ " "+ num5+ " are equal.");
   }
 //question4
-(var x=0; x<=15; x++) {
+for (var x=0; x<=15; x++) {
         if (x === 0) {
                 console.log(x +  " is even");
         }
@@ -71,7 +74,7 @@ else
         }
 }
 //ques5
-var students = [['David', 80], ['Vinoth', 77], ['Divya', 88], ['Ishitha', 95], ['Thomas', 68]];
+var students = [['Ali', 60], ['Aslam', 47], ['Abid', 80], ['Umna', 89], ['Qirat', 91]];
 
 var Avgmarks = 0;
 
@@ -101,15 +104,15 @@ for ( var i = 1; i <= 100; i++ )
 {
   if ( i%3 === 0 && i%5 === 0 )
   {
-    console.log( i + " FizzBuzz" );
+    console.log(" FizzBuzz" );
   }
   else if ( i%3 === 0 ) 
   {
-    console.log(i+ " Fizz" );
+    console.log(" Fizz" );
   }
   else if ( i%5 === 0 ) 
   {
-    console.log(i+ " Buzz" );
+    console.log(" Buzz" );
   }
   else
   {
